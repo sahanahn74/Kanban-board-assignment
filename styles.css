@@ -1,0 +1,28 @@
+.board {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    min-height: 200px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.column h2 {
+    text-align: center;
+}
+
+.task {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.task:hover {
+    background-color: #f0f0f0;
+}
